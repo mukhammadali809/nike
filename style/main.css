@@ -1,0 +1,231 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+.header{
+    background: #322E41;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+body{
+    background: #E5E5E5;
+}
+.header_nav{
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    align-items: center;
+    display: flex;
+}
+.header_links{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: "Roboto-regular";
+    padding: 23px 22px;
+    display: block;
+    transition: 0.5s;
+}
+.header_links:hover{
+    color: #D47300;
+    background: white;
+}
+.header_img{
+    width: 100px;
+    height: 36px;
+}
+
+.header_box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.header_title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    font-family: "Roboto-regular";
+    margin-bottom: 15px;
+    margin-top: 167px;
+}
+
+.header_text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: "Roboto-regular";
+}
+.header_text span{
+    font-weight: 700;
+    font-family: "Roboto-regular";
+}
+.main{
+    height: 967px;
+}
+.nike{
+    background: url(../imgs/header_bg.png) center / cover no-repeat;
+    height: 500px;
+}
+.main_nike_menu{
+    margin-top: 208px;
+}
+.nike_about{
+    width: 540px;
+    height: 440px;
+    padding: 15px;
+    margin-right: 30px;
+    background: white;
+    border-radius: 5px;
+}
+.nike_about_title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #2C2A2A;
+    font-family: "Roboto-regular";
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.nike_about_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #9B9B9B;
+    font-family: "Roboto-regular";
+}
+.nike_block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nike_box{
+    width: 255px;
+    height: 219px;
+    background: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.nike_box_img{
+    width: 66px;
+    height: 38px;
+    border: solid #D47300 2px;
+    border-radius: 40px;
+    padding: 20px 8px 22px 6px;
+    margin: 15px;
+}
+.nike_box_title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 6px;
+    color: #2C2A2A;
+    font-family: "Roboto-regular";
+    margin-bottom: 10px;
+}
+.nike_box_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9B9B9B;
+    font-family: "Roboto-regular";
+}
+.footer{
+    background: #322E41;
+    height: 258px;
+}
+.footer_menu{
+    align-items: center;
+}
+.footer_registration_yn{
+    width: 350px;
+    height: 36px;
+    border-radius: 6px;
+    border: 0px #322E41;
+    margin-top: 40px;
+}
+.footer_registration_yn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+    line-height: 18px;
+    font-family: "Roboto-regular";
+    padding-left: 10px;
+}
+.footer_registration_mg{
+    width: 350px;
+    height: 86px;
+    border-radius: 6px;
+    border: 0px #322E41;
+    margin-top: 10px;
+}
+.footer_registration_mg {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+    line-height: 18px;
+    font-family: "Roboto-regular";
+    padding-left: 10px;
+}
+.footer_registration_button{
+    width: 360px;
+    height: 36px;
+    background: #544294;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.footer_registration_button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    align-items: center;
+    color: #fff;
+    font-family: "Roboto-regular";
+    border: solid 0px #322E41;
+}
+.footer_block{
+    padding-left: 164px;
+}
+.footer_link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: "Roboto-regular";
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 73px;
+    transition: 0.5s;
+}
+.footer_link:hover{
+    color: #D47300;
+}
+.footer_icons{
+    margin-left: 164px;
+}
+.footer_icon{
+    width: 10px;
+    height: 19px;
+    margin-right: 40px;
+}
